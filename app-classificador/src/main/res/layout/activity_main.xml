@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_soft"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonDevolverClassificacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_purple"
+        android:text="@string/devolver_classificacoes"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</FrameLayout>
